@@ -1,0 +1,133 @@
+header {
+  padding: 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.49);
+}
+header .nav-right div {
+  padding: 20px 30px;
+  border-left: 1px solid rgba(128, 128, 128, 0.49);
+}
+header .nav-right div input {
+  border: 0;
+  outline: 0;
+}
+header .nav-right div a {
+  color: #000000;
+}
+header nav {
+  padding: 0 !important;
+}
+
+#sec-one {
+  background: url("/assets/img/bg-1.jpg");
+  padding: 80px 0;
+}
+#sec-one .sec-one-content {
+  padding: 80px 0;
+}
+#sec-one .sec-one-content .sec-one-text-content {
+  padding: 40px 0;
+}
+#sec-one .sec-one-content .sec-one-text-content h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+#sec-one .sec-one-content .sec-one-text-content button {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  background-color: blue;
+  color: #fff;
+  border: 0;
+}
+
+#sec-two {
+  padding: 40px 0;
+}
+#sec-two .sec-two-content {
+  padding: 40px 0;
+}
+#sec-two .sec-two-content .carts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#sec-two .sec-two-content .carts .cart {
+  width: 350px;
+  position: relative;
+}
+#sec-two .sec-two-content .carts .cart img {
+  width: 100%;
+}
+#sec-two .sec-two-content .carts .cart p {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 34%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#sec-four {
+  padding: 40px 0;
+}
+#sec-four .sec-four-content {
+  padding: 40px 0;
+}
+#sec-four .sec-four-content .sec-four-products-carts {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+#sec-four .sec-four-content .sec-four-products-carts .cart {
+  width: 220px;
+  background-color: rgba(186, 185, 182, 0.22);
+  padding: 10px;
+}
+#sec-four .sec-four-content .sec-four-products-carts .cart img {
+  width: 100%;
+}
+#sec-four .sec-four-content .loadMore button {
+  width: 160px;
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+
+footer {
+  background-color: #000000;
+  padding: 20px 10px;
+}
+footer P {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.formBox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.formBox form {
+  width: 49%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  header {
+    padding: 20px 0;
+  }
+  .formBox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .formBox form {
+    width: 100%;
+  }
+}
